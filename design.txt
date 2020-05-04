@@ -1,0 +1,47 @@
+Event types: Planet, Conflict
+
+Planet
+        - can stop to shop/meet with locals
+        - costs Fuel to land and launch
+
+Conflict
+        - can call for help & withstand attack until it gets there (Shield)
+        - can escape at high speed (Fuel)
+        - can negotiate (Food, Money, and/or Fuel)
+
+Resources: Seed, Crop, Food, Money, Fuel, Shield, Crew, Morale
+
+Seed
+        - Can be used to create Crop
+        - Each Crop has progress from 0 - 100%
+        - Time to convert Crop => Food based on Seed type
+
+Crop
+        - Becomes Food after some amount of time
+
+Food
+        - Decreases over time (consumed by Crew)
+
+Money
+        - Can be spent on Planet to get Seed and Fuel
+
+Fuel
+        - Required to continue moving forward
+        - If depleted, can call for help (may summon Conflict)
+        - Can convert Food to Fuel (high cost)
+
+Shield
+        - Depleted when defending in Conflict
+        - Can be charged with Fuel at any time
+        - Must be a minimum amount to enter Planet
+
+Crew
+        - Acquired from Planet
+        - Costs Money and Food over time
+        - Increases Crop growth
+
+Morale
+        - Each Crew has a Morale value which modifies their effectiveness
+        - Morale can go up or down depending on player responses
+        - Lower morale: worked too hard, not enough Food, no Money payment
+        - Higher morale: abundance of Food/Money, less workload

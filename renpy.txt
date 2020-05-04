@@ -1,0 +1,19 @@
+Renpy
+    filter remove_matches ^\s*#
+    filter docstring_to_C
+    filter call_regexp_common C
+    filter remove_inline #.*$
+    extension rpy
+    script_exe python
+    script_exe python2.6
+    script_exe python2.7
+    script_exe python3
+    script_exe python3.3
+    script_exe python3.4
+    script_exe python3.5
+    3rd_gen_scale 4.20
+    end_of_line_continuation \\$
+JSON
+    filter remove_matches ^\s*$
+    extension json
+    3rd_gen_scale 2.50
